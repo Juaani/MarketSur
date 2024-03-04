@@ -1,8 +1,65 @@
+header{
+    background-image: url('../resources/images/bg/pexels-dominika-roseclay-905163.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+
+main{
+    height: 1000px;
+}
+
+footer{
+    height: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #78cdd7;
+    transition: all 0.4s ease-in-out;
+}
+
+.redes img:hover{
+    transform: translateY(-2px);
+    transition: all 0.4s ease-in-out;
+  }
+
 body{
     background-color: black;
 }
 
-header, img{
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 20PX;
+}
+
+nav img{
     width: 200px;
-    object-fit: contain;
+}
+
+
+li img{
+    width: 30px;
+}
+
+li a{
+    padding-left: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+    padding-top: 20px;
 }
