@@ -8,7 +8,8 @@ p,h1{
 }
 
 nav{
-    padding-bottom: 10%;
+    margin-bottom: 10%;
+    background-color: rgba(000, 000, 000, 0.8);
 }
 
 body{
@@ -131,4 +132,40 @@ ul li{
 
 .menu{
     padding-right: 20px;
+}
+
+section{
+    padding-top: 5%;
+}
+
+.sectionA {
+    font-family: "Quicksand";
+    height: 600px;
+    
+}
+
+.sectionA h2{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #E1DAD8;
+    text-align: center;
+}
+
+.sectionA p{
+    color: #E1DAD8;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+.sectionA img{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50px;
+}
+
+.sectionB h2,p{
+    font-family: "Quicksand";
 }
