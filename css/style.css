@@ -41,6 +41,7 @@ a{
 
 a:hover{
     color: #78cdd7;
+    font-weight: bold;
     transition: all 0.4s ease-in-out;
 }
 
@@ -140,7 +141,8 @@ section{
 
 .sectionA {
     font-family: "Quicksand";
-    height: 600px;
+    height: auto;
+    padding-bottom: 10%;
     
 }
 
@@ -155,7 +157,7 @@ section{
     color: #E1DAD8;
     font-size: 20px;
     padding-top: 25px;
-    padding-left: 15px;
+    padding-left: 45px;
 }
 
 .sectionA img{
@@ -166,6 +168,72 @@ section{
     border-radius: 50px;
 }
 
-.sectionB h2,p{
+.sectionB {
     font-family: "Quicksand";
+    height: auto;
+    background-color: white;;
+    
+}
+
+.sectionB h2{
+    font-size: 40px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+}
+
+.sectionB p{
+    color: black;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-left: 45px;
+}
+
+.sectionB img{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50px;
+}
+
+.iconos{
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    padding-left: 5px;
+    justify-content:center;
+    padding-bottom: 10%;
+}
+
+.iconos img{
+    width: 100px;
+    height: auto;
+    object-fit:fill;
+    object-position: 0;
+    border-radius: 0;
+}
+
+.iconos h3{
+    font-size: 20px;
+}
+
+.iconos button{
+    padding: 10px;
+    width: 100%;
+    background-color: white;
+    border: white;
+    border-radius: 15px;
+}
+
+.iconos button:hover{
+    box-shadow: 5px 5px 5px #78cdd7;;
+    transform: translateY(-2px);
+    transition: all 0.6s ease-in;
+    background-color: black;
+    color: white;
+    img{
+        filter: invert(100%);
+        transition: all 0.6s ease-in;
+    }
 }
