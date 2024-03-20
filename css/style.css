@@ -263,3 +263,34 @@ text-align: center;
     transform: translateY(-2px);
     transition: all 0.6s ease-in;
 }
+
+form{
+    padding-top: 10px;
+    display: block;
+}
+
+form input,textarea{
+    width: 100%;
+    border: none;
+    margin-top: 20px;
+}
+
+
+form button{
+    width: 50%;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+
+form button:hover{
+    box-shadow: 5px 5px 5px #78cdd7;;
+    transform: translateY(-1px);
+    transition: all 0.3s ease-in;
+}
+
+.textoSecundario{
+    font-weight: lighter;
+    font-size: 10px;
+}
