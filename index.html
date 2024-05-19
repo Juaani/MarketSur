@@ -202,22 +202,23 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div>
                         <p>Email:</p>
-                        <p class="textoSecundario">info@marketsur.com.ar</p>
+                        <p class="textoSecundario">info@agenciamarketsur.com</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div>
                         <p>Hablemos:</p>
-                        <form method="post" class="contacto" onsubmit="return enviarFormulario2(this)" data-hs-cf-bound="true">
+                        <form class="contacto" action="https://formsubmit.co/info@agenciamarketsur.com" method="POST">
                             <input type="hidden" id="grs1" name="grs1" value="">
                             <input type="hidden" name="form" value="contacto">
-                            <input type="text" name="nombre" id="nombre" placeholder="Nombre*" required="required" autocomplete="off">
-                            <input type="text" name="email" id="email" placeholder="E-mail*" required="required" autocomplete="off">
-                            <input type="text" name="telefono" id="telefono" placeholder="Telefono*" required="required" autocomplete="off">
-                            <input type="text" name="asunto" id="asunto" placeholder="Asunto*" required="required" autocomplete="off">
-                            <textarea style="height: 130px !important;" name="mensaje" id="mensaje" placeholder="Escribe tu mensaje**" required="required" autocomplete="off"></textarea>
-                            <div id="recaptcha1" style="float:right"><div style="width: 304px; height: 78px;"><div>
+                            <input type="name" name="name" id="nombre" placeholder="Nombre*" required="required" autocomplete="off">
+                            <input type="email" name="email" id="email" placeholder="E-mail*" required="required" autocomplete="off">
+                            <input type="text" name="phone" id="telefono" placeholder="Telefono*" required="required" autocomplete="off">
+                            <input type="text" name="subject" id="asunto" placeholder="Asunto*" required="required" autocomplete="off">
+                            <textarea style="height: 130px !important;" name="comment" id="mensaje" placeholder="Escribe tu mensaje**" required="required" autocomplete="off"></textarea>      
                             <button type="submit" autocomplete="off">Enviar</button>
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_next" value="https://agenciamarketsur.com">
                         </form>
                     </div>
                 </div>
