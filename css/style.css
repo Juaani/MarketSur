@@ -10,6 +10,7 @@ p,h1{
 nav{
     margin-bottom: 10%;
     background-color: rgba(000, 000, 000, 0.8);
+    position: fixed;
 }
 
 body{
@@ -25,12 +26,10 @@ header{
     width: 100%;
 }
 
-main{
-    height: 1000px;
-}
-
 footer{
     height: 100px;
+    background-color: black;
+    position: relative;
 }
 
 a{
@@ -93,7 +92,13 @@ ul li{
     background-color: rgba(000, 000, 000, 0.8);
 }
 
-.titulo p,h1{
+.titulo h1{
+    padding-top: 200px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.titulo p{
     padding-top: 20px;
     font-size: 40px;
     font-weight: bolder;
@@ -133,7 +138,9 @@ ul li{
 
 .menu{
     padding-right: 20px;
+    
 }
+
 
 section{
     padding-top: 5%;
@@ -149,6 +156,7 @@ section{
 }
 
 .sectionA h2{
+    padding-top: 20px;
     font-size: 40px;
     font-weight: bolder;
     color: #E1DAD8;
@@ -180,6 +188,7 @@ section{
 }
 
 .sectionB h2{
+    padding-top: 20px;
     font-size: 40px;
     font-weight: bolder;
     color: black;
@@ -242,6 +251,11 @@ section{
     }
 }
 
+.iconos p{
+    font-size: 20px;
+    text-align: left;
+}
+
 .team-img{
 padding-top: 20px;
 display: flex;
@@ -252,10 +266,9 @@ text-align: center;
     padding-top: 20px;
     width: 200px;
     height: 200px;
-    object-fit: cover;
-    object-position: center;
     border-radius: 200px;
     filter: grayscale(1);
+    object-fit: cover;
 }
 
 .team-img img:hover{
@@ -294,3 +307,8 @@ form button:hover{
     font-weight: lighter;
     font-size: 10px;
 }
+
+footer p{
+    padding-top: 2rem;
+}
+
