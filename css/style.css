@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Quicksand:wght@300..700&display=swap');
 
-
-
 p,h1{
     font-family: "Quicksand";
     font-weight: bolder;
@@ -482,24 +480,25 @@ footer p{
     .imagenMKT img{
         width: 200px;
         height: 150px;
+        border-radius: 40px;
     }
 
     .sectionA h2{
-        padding-top: 80px;
-        font-size: 30px;
+        padding-top: 90px;
+        font-size: 35px;
     }
     
     .sectionA p{
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .sectionB h2{
-        padding-top: 70px;
-        font-size: 30px;
+        padding-top: 90px;
+        font-size: 35px;
     }
     
     .sectionB p{
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .iconos{
