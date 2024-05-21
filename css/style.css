@@ -68,7 +68,7 @@ nav{
 }
 
 nav img{
-    width: 60%;
+    width: 40%;
 }
 
 
@@ -322,6 +322,10 @@ footer p{
     padding-top: 2rem;
 }
 
+.menuHamburgesa{
+    display: none;
+}
+
   @media (max-width: 768px) {
     .wpp-button{
         width: 60px;
@@ -427,10 +431,22 @@ footer p{
   }
 
   @media (max-width: 576px) {
+    nav{
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .menuHamburgesa{
+        display: block;
+    }
     .wpp-button{
         width: 50px;
         height: 50px;
         margin-bottom: 10px;
+    }
+
+    .logo{
+        padding-left: 0px;
     }
 
     .wpp-button img{
@@ -439,6 +455,7 @@ footer p{
     }
 
     nav{
+        height: 15%;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -448,13 +465,19 @@ footer p{
         font-size: 15px;
     }
 
-    nav img{
-        width: 100px;
-        padding-left: 0px;
+    nav a{
+        font-size: 12px;
     }
+
+    nav img{
+        padding-left: 0px;
+        width: 40%;
+    }
+
 
     li img{
         width: 10px;
+        width: 70%;
     }
 
     .team-img div{
@@ -542,21 +565,29 @@ footer p{
     nav{
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
         padding-top: 10px;
-        padding-left: 0px;
-        padding-right: 0px;
-        font-size: 10PX;
+        padding-left: 5%;
+        padding-right: 5%;
+        height: 15%;
+    }
+
+    nav a{
+        font-size: 12px;
     }
 
     nav img{
         padding-left: 0px;
+        width: 40%;
     }
 
     li img{
         width: 10px;
     }
-
+    
+    .logo{
+        padding-left: 0px;
+    }
     .team-img div{
         padding-top: 20px;
     }
