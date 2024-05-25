@@ -155,7 +155,7 @@ section{
 
 .sectionA {
     font-family: "Quicksand";
-    padding-bottom: 10%;
+    margin-bottom: 5%;
     height: 100vh;
     width: 100%;
     
@@ -190,6 +190,7 @@ section{
     background-color: white;
     height: 100%;
     width: 100%;
+    margin-bottom: 5%;
     
 }
 
